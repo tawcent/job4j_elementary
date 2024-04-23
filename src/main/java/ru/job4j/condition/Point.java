@@ -20,6 +20,6 @@ public class Point {
             double result2 = Point.distance(0, 0, 5, 0);
             System.out.println("result (0, 0) to (5, 0) " + result2);
             double result3 = Point.distance(2, 0, 3, 5);
-            System.out.println("result (2, 0) to (3, 5) " +result3);
+            System.out.println("result (2, 0) to (3, 5) " + result3);
         }
 }
