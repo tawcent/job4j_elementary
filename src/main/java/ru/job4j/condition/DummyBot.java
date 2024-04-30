@@ -16,5 +16,7 @@ public class DummyBot {
         System.out.println(result);
         result = DummyBot.answer("Bye.");
         System.out.println(result);
+        result = DummyBot.answer("How are you?");
+        System.out.println(result);
     }
 }
