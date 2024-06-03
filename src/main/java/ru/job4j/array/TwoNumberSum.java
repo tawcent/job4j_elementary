@@ -10,7 +10,9 @@ public class TwoNumberSum {
                 return new int[]{i, j};
             } else if (sum > target) {
                 j--;
-            } else i++;
+            } else {
+                i++;
+            }
 
         }
         return new int[0];
