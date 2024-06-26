@@ -43,4 +43,12 @@ class PointTest {
 
     }
 
+    @Test
+    void when000to050then5dot0() {
+        double expected = 5.0;
+        Point c = new Point(0, 0, 0);
+        Point d = new Point(0, 5, 0);
+        double distance = c.distance(d);
+        assertThat(distance).isEqualTo(expected, withPrecision(0.01));
+    }
 }
